@@ -1,0 +1,11 @@
+expected_query_hash:
+  fields: 'city,country,countryCode,lat,lon'
+  
+fake_response:
+  country: 'Canada'
+  countryCode: 'CA'
+  city: 'Montreal'
+  lat: '45.6085'
+  lon: '-73.5493'
+
+test_ip: '24.48.0.1'
