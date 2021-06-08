@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'metadata about IP address'
   spec.homepage      = 'https://github.com/bukharovev/ipgeobase'
-  spec.required_ruby_version = '2.6.3'
+  spec.required_ruby_version = '>= 2.5.0'
 
   spec.metadata['allowed_push_host'] = "http://mygemserver.com'"
 
