@@ -1,3 +1,5 @@
+[![Build](https://github.com/bukharovev/ipgeobase/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/bukharovev/ipgeobase/actions/workflows/main.yml)
+
 ## Installation
 
 Add this line to your application's Gemfile:
