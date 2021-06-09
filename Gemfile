@@ -14,3 +14,5 @@ gem 'rubocop', '~> 1.7'
 gem 'dotenv', '~> 2.7.6'
 
 gem 'addressable', '~> 2.7.0'
+
+gem 'webmock', '~> 3.13.0'
