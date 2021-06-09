@@ -1,4 +1,9 @@
-test:
-		rake test
+install:
+	bundle install
 
+test:
+	rake test
 .PHONY: test
+
+lint:
+	rubocop .
