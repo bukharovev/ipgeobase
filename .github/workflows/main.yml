@@ -1,4 +1,4 @@
-name: Ruby
+name: CI
 
 on: [push,pull_request]
 
@@ -16,6 +16,9 @@ jobs:
 
     - name: Install dependencies
       run: make install
+
+    - name: create enviroment
+      run: cp .env.sample .env
 
     - name: Run Rubocop
       run: make lint
