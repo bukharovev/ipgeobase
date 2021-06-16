@@ -1,4 +1,4 @@
-[![Build](https://github.com/bukharovev/ipgeobase/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/bukharovev/ipgeobase/actions/workflows/main.yml)
+[![build](https://github.com/bukharovev/ipgeobase/actions/workflows/main.yml/badge.svg)](https://github.com/bukharovev/ipgeobase/actions/workflows/main.yml)
 
 ## Installation
 
