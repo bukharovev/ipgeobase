@@ -22,12 +22,12 @@ class IpgeobaseTest < Minitest::Test
     )
 
     fake_response_json = JSON.generate(fake_response)
-    api_uri = build_api_url(test_ip)
+    api_uri = Helper.build_api_url(test_ip)
 
     stub_request(:any, api_uri)
       .with(query: expected_query_hash)
       .to_return(body: fake_response_json)
 
-    assert_equal fake_response, Ipgeobase.lookup(test_ip).to_hash
+    assert_equal fake_response.transform_keys(&:to_sym), Ipgeobase.lookup(test_ip).to_h
   end
 end
