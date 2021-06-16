@@ -17,9 +17,6 @@ jobs:
     - name: Install dependencies
       run: make install
 
-    - name: create enviroment
-      run: cp .env.sample .env
-
     - name: Run Rubocop
       run: make lint
 
