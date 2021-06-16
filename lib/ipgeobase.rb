@@ -4,7 +4,7 @@ require 'net/http'
 require 'json'
 require 'addressable'
 require_relative 'ipgeobase/version'
-require_relative '../helpers'
+require_relative 'helpers'
 
 # module for lookup ip metadata
 module Ipgeobase
@@ -33,7 +33,7 @@ module Ipgeobase
     api_uri = build_api_url(ip_address)
 
     response = Net::HTTP.get(api_uri)
-    response = 'null' if response.empty?
+    return if response.empty?
 
     ip_meta_hash = JSON.parse(response)
 

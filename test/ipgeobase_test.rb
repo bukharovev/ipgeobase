@@ -6,7 +6,7 @@ require 'yaml'
 
 require_relative 'test_helper'
 require_relative '../lib/ipgeobase'
-require_relative '../helpers'
+require_relative '../lib/helpers'
 
 class IpgeobaseTest < Minitest::Test
   include Ipgeobase
